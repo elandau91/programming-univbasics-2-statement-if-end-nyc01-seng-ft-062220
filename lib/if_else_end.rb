@@ -1,3 +1,7 @@
 # Write your solution here
-2.6.1 :001 > current_time
-= Time.now
+
+if Time.now.to_i % 2 == 0
+  puts "Even!"
+else
+  puts "Odd!"
+end
